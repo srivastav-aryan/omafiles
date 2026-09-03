@@ -1,0 +1,51 @@
+onboarding = false
+
+# Use terminals theme
+[theme]
+name = "terminal"
+auto_switch = false
+
+[terminal]
+# Match the current pane path when creating panes, windows, and sessions.
+new_cwd = "follow"
+default_shell = "/usr/bin/zsh"
+
+[ui]
+# Keeps the clean single-line borders (no floating gaps)
+pane_gaps = false
+pane_outer_borders = false
+tab_bar_position = "bottom"
+
+[ui.sound]
+# Play sounds when agents finish or block in the background
+enabled = true
+
+[keys]
+prefix = "ctrl+s"
+reload_config = "prefix+q"
+
+# --- Panes (Splitting & Moving) ---
+split_vertical = "prefix+v"
+split_horizontal = "prefix+h"
+close_pane = "prefix+x"
+
+focus_pane_left = "prefix+left"
+focus_pane_down = "prefix+down"
+focus_pane_up = "prefix+up"
+focus_pane_right = "prefix+right"
+
+# Resize mode
+resize_mode = "prefix+r"
+
+# --- Tabs ---
+new_tab = "prefix+c"
+rename_tab = "prefix+,"
+close_tab = "prefix+shift+x"
+
+# Switch tabs instantly with Alt+1, Alt+2, etc. (No prefix needed!)
+switch_tab = "alt+1..9"
+
+# --- Other Essentials ---
+toggle_sidebar = "prefix+e"
+zoom = "prefix+z"
+detach = "prefix+d"
