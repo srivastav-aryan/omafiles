@@ -11,6 +11,14 @@ return {
     opts = {},
   },
 
+  -- Replace LazyVim's Snacks git diff picker with Diffview.
+  {
+    "folke/snacks.nvim",
+    keys = {
+      { "<leader>gd", false },
+    },
+  },
+
   -- Git Conflict helper for visual merge conflict resolution
   {
     "akinsho/git-conflict.nvim",
