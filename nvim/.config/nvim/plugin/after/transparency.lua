@@ -10,7 +10,7 @@ end
 local groups = {
 	-- transparent background
 	"Normal",
-	"NormalFloat",
+  	"NormalFloat",
 	"FloatBorder",
 	"Pmenu",
 	"Terminal",
@@ -21,7 +21,7 @@ local groups = {
 	"LineNr",
 	"CursorLineNr",
 	"NormalNC",
-	"WhichKeyFloat",
+  "WhichKeyFloat",
 	"TelescopeBorder",
 	"TelescopeNormal",
 	"TelescopePromptBorder",
